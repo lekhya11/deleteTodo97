@@ -1,0 +1,22 @@
+.todoList-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.description {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: black;
+  text-align: left;
+  margin-right: 10px;
+}
+.delete-button {
+  background-color: #ffffff;
+  border: 3px solid #ff0b37;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}

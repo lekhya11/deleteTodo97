@@ -1,0 +1,28 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+}
+.todo-container {
+  border-radius: 8px;
+  padding: 30px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ff8542;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+  text-align: center;
+}
+.delete-item {
+  display: flex;
+  flex-direction: column;
+}
